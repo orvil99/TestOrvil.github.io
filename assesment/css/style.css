@@ -1,0 +1,385 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family:  Arial;
+	background-color: #edeff0;
+}
+
+.content{
+	background-color: #edeff0;
+	padding: 10px;
+}
+
+.p-1{
+	font-size: 40px;
+	padding: 25px
+}
+
+.p-2{
+	padding: 20px;
+	margin:20px;
+}
+
+.p-3{
+	font-size: 40px;
+	margin: 10px;
+	margin-top: -30px;
+}
+.p-4{
+	font-size: 40px;
+	margin: 10px;
+}
+
+.p-5{
+	font-size: 20px;
+	margin: 10px;
+}
+
+.p-6{
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+}
+
+.hr-report{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.hr-transaction-edit{
+	margin:15px;
+	width: 52%;
+}
+
+.hr-report{
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.btn-laporan-transaksi{
+	margin:20px;
+	border:none;
+	background-color:#1c5dd6;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color:white;
+	opacity: 0.7;
+	width: 14%;
+	font-size: 16px;
+}
+
+.btn-laporan-transaksi a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn-laporan-transaksi:hover{
+	opacity: 1;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn-transaksi-baru{
+	margin:20px;
+	margin-left:-5px;
+	border:none;
+	background-color:#e31d12;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color:white;
+	opacity: 0.7;
+	width: 14%;
+	font-size: 16px;
+}
+	
+.btn-transaksi-baru a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn-transaksi-baru:hover{
+	opacity: 1;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+input[type=date],input[type=text],input[type=number]{
+  width: 50%; 
+  padding: 10px;
+  margin:15px;
+  margin-top: 5px;
+/*  border-radius: 5px;*/
+}
+
+ select{
+  width: 52.5%;
+  padding: 10px;
+  margin:15px;
+  margin-top: 5px;
+/*  border-radius: 5px;*/
+ }
+
+.transaction{
+	padding: 50px;
+	padding: 50px 0 50px 400px;
+	background-color: #edeff0; 
+}
+
+.transaction label{
+	margin: 15px;
+	font-weight: bold;
+}
+
+.btn-submit-save{
+	border:none;
+	width: 50%;
+	padding: 15px 0 15px 15px;
+	border-radius: 5px;
+	margin: -10px 0 15px 25px;
+	background-color: #1c5dd6;
+	opacity: 0.9;
+	color: white;
+	font-size: 16px;
+}
+
+.btn-submit-save:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-update{
+	border:none;
+	width: 50%;
+	padding: 15px 0 15px 15px;
+	border-radius: 5px;
+	margin: -10px 0 15px 25px;
+	background-color: #1c5dd6;
+	opacity: 0.9;
+	color: white;
+	font-size: 16px;
+}
+
+.btn-update:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-submit-reset{
+	border:none;
+	width: 50%;
+	padding: 15px 0 15px 15px;
+	border-radius: 5px;
+	margin: -10px 0 15px 25px;
+	background-color:#e31d12;
+	opacity: 0.8;
+	color: white;
+	font-size: 16px;
+}
+
+.btn-submit-reset:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-beranda{
+	width: 10%;
+	border:none;
+	padding: 15px;
+	margin:15px 0 15px 15px;
+	background-color: #1c5dd6;
+	border-radius: 5px;
+	opacity: 0.9; 
+}
+
+.btn-beranda:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-beranda a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+.btn-beranda a:hover{
+	font-weight: bold;
+}
+
+
+.btn-add{
+	width: 10%;
+	border:none;
+	padding: 15px;
+	margin:15px 0 15px 0px;
+	background-color: #f21f1f;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.btn-add:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-add a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+.btn-add a:hover{
+	font-weight: bold;
+}
+
+
+.btn-print{
+	width: 10%;
+	border:none;
+	padding: 15px;
+	margin:15px 0 15px 0px;
+	background-color: #1dad3a;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.btn-print:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-print a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+.btn-print:hover a{
+	font-weight: bold;
+}
+
+
+.btn-export{
+	width: 15%;
+	border:none;
+	padding: 15px;
+	margin:15px 0 15px 0px;
+	background-color: #1dad3a;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.btn-export:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-export a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+.btn-export:hover a{
+	font-weight: bold;
+}
+
+.report{
+	padding: 10px;
+}
+
+.btn-edit{
+	width: 30%;
+	border:none;
+	padding: 10px;
+	margin:5px 0 5px 0;
+	background-color: #e0a709;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.btn-edit:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-edit a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+
+.btn-edit:hover a{
+	font-weight: bold;
+}
+
+.btn-delete{
+	width: 50%;
+	border:none;
+	padding: 10px;
+	margin:5px 0 5px 0;
+	background-color: #f21f1f;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.btn-delete:hover{
+	opacity: 1;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn-delete a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+
+}
+
+.btn-delete:hover a{
+	font-weight: bold;
+}
+
+.table-report{
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+thead{
+	background-color:#00A8A8;
+	color: white;
+}
+
+th{
+	border: 1px solid grey;
+	height: 50px;
+}
+
+tr{
+	border: 1px solid grey;
+	height: 40px;
+}
+
+td{
+	border: 1px solid grey;
+}
+
+tr:nth-child(even){;
+	background-color:#C4DBE0;
+}
